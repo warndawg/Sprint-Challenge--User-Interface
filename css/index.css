@@ -79,10 +79,43 @@ p {
     border-bottom: 1px dashed black;
 }
 
+header {
+    margin: 20px 0;
+    display:flex;
+    width: 100%;
+}
+
+header img{
+    display: inline-block;
+}
+
+header nav {
+    width: 691px;
+    margin-top: 25px;
+    margin-left: 70px;
+  }
+
+header nav a {
+	margin-right: 65px;
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+  }
+
+.top-content img {
+    margin-bottom: 30px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.about-content{
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -104,7 +137,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +175,61 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.teal{
+    background: teal;
+}
+.gold{
+    background: gold;
+}
+.cadetblue{
+    background: cadetblue;
+}
+.coral{
+    background: coral;
+}
+.crimson{
+    background: crimson;
+}
+.forestgreen{
+    background: forestgreen;
+}
+.darkorchid{
+    background: darkorchid;
+}
+.hotpink{
+    background: hotpink;
+}
+.indigo{
+    background: indigo;
+}
+.dodgerblue{
+    background: dodgerblue;
+}
+
+.about-middle{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+.about-point{
+    width: 390px;
+    border-bottom: 1px dashed black;
+    padding: 15px 0 15px;
+}
+
+.team-content{
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    margin-top: 15px;
+}
+
+button {
+    background: white;
+    padding: 8px 22px;  
+    border: 1px solid black;
+    border-radius: 10px;
 }
